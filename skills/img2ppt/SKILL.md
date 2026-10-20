@@ -18,6 +18,18 @@ allowed-tools: Bash
 把一个图片或 PDF 交给 img2ppt 服务，拿回一份**每个文字框、色块、图标都是原生可编辑对象**的
 PPTX（不是整页位图贴进去的假 PPT）。
 
+## 效果预览
+
+![img2ppt 成品示例：信息图、流程图、科研图重建后的可编辑 PPT](https://raw.githubusercontent.com/showerberich/img2ppt-skills/main/skills/img2ppt/assets/hero-grid.webp)
+
+下面是「原图 → 重建后的可编辑 PPTX 渲染结果」对照：
+
+| 原图 | 可编辑 PPT 渲染 |
+|---|---|
+| ![空间规划框架原图](https://raw.githubusercontent.com/showerberich/img2ppt-skills/main/skills/img2ppt/assets/demo-framework-src.webp) | ![空间规划框架重建结果](https://raw.githubusercontent.com/showerberich/img2ppt-skills/main/skills/img2ppt/assets/demo-framework-out.webp) |
+| ![微塑料食物链原图](https://raw.githubusercontent.com/showerberich/img2ppt-skills/main/skills/img2ppt/assets/demo-microplastic-src.webp) | ![微塑料食物链重建结果](https://raw.githubusercontent.com/showerberich/img2ppt-skills/main/skills/img2ppt/assets/demo-microplastic-out.webp) |
+| ![RAG 架构原图](https://raw.githubusercontent.com/showerberich/img2ppt-skills/main/skills/img2ppt/assets/demo-rag-src.webp) | ![RAG 架构重建结果](https://raw.githubusercontent.com/showerberich/img2ppt-skills/main/skills/img2ppt/assets/demo-rag-out.webp) |
+
 ## 先决条件
 
 1. 一枚令牌（用一次就一直有效，可随时吊销）：

@@ -6,10 +6,21 @@
 技能本身只做两件事：调 HTTP 接口、等结果。它不碰我们的内部流程（不含 hermes、
 docker、作业目录这些东西），所以可以整包拷进任何工具里。
 
+## 效果预览
+
+![img2ppt 成品示例：信息图、流程图、科研图重建后的可编辑 PPT](assets/hero-grid.webp)
+
+| 原图 | 可编辑 PPT 渲染 |
+|---|---|
+| ![空间规划框架原图](assets/demo-framework-src.webp) | ![空间规划框架重建结果](assets/demo-framework-out.webp) |
+| ![微塑料食物链原图](assets/demo-microplastic-src.webp) | ![微塑料食物链重建结果](assets/demo-microplastic-out.webp) |
+| ![RAG 架构原图](assets/demo-rag-src.webp) | ![RAG 架构重建结果](assets/demo-rag-out.webp) |
+
 ```
 skills/img2ppt/
 ├── SKILL.md                  agent 读的说明书（怎么换令牌、怎么转、为什么慢、计价）
 ├── README.md                 这一份：给人看的安装说明
+├── assets/                   示例图（原图 / 成品对照）
 └── scripts/img2ppt.py        CLI：只用 Python 3 标准库，不需要 pip install
 ```
 

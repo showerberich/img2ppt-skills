@@ -1,5 +1,7 @@
 # img2ppt skills
 
+![img2ppt 成品示例](skills/img2ppt/assets/hero-grid.webp)
+
 Agent skills for converting images and PDFs into fully editable PowerPoint files.
 
 ## Skills
