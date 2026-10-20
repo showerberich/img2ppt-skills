@@ -11,7 +11,7 @@ Agent skills for converting images and PDFs into fully editable PowerPoint files
 ## Install
 
 ```bash
-npx skills add <owner>/img2ppt-skills --skill img2ppt
+npx skills add showerberich/img2ppt-skills@img2ppt
 ```
 
 The skill needs `IMG2PPT_TOKEN`. See [skills/img2ppt/README.md](skills/img2ppt/README.md) for setup, pricing, and usage.
