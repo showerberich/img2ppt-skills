@@ -2,6 +2,8 @@
 name: img2ppt
 slug: img2ppt
 displayName: 图片转可编辑 PPT
+display_name: 图片转可编辑 PPT
+display_name_en: Image to Editable PPTX
 version: 1.0.0
 summary: 调用 img2ppt 服务，把图片或 PDF 转成每个文字和图形都可编辑的 PPTX
 description: Convert an image or PDF into an editable PowerPoint (.pptx) through the img2ppt HTTP API. Use when the user wants a picture, screenshot, poster, diagram, infographic or PDF turned into a PPT/PPTX they can edit, or asks to "把这张图转成 PPT / 做成可编辑的 PPT". Requires an API token in IMG2PPT_TOKEN; conversions cost credits, and the account is topped up on the img2ppt site.
